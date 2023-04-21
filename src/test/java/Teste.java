@@ -37,8 +37,6 @@ public class Teste {
         cadastrarSerie(Monster, slMonster);
 
 
-
-
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("myserielist");
         EntityManager em = factory.createEntityManager();
 
