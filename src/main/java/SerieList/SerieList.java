@@ -2,7 +2,6 @@ package SerieList;
 
 import SerieBuilder.Serie;
 import SerieBuilder.Status;
-
 import javax.persistence.*;
 import java.time.LocalDate;
 
@@ -45,7 +44,6 @@ public class SerieList {
         }else{
             this.progress = progress;
         }
-
     }
 
     public void setScore(int score) throws Exception {
@@ -54,7 +52,6 @@ public class SerieList {
         } else{
             this.score = score;
         }
-
     }
 
     public void setStatus(Status status) {
